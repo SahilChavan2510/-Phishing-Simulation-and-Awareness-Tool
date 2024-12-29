@@ -9,8 +9,8 @@ require 'vendor/autoload.php';
 use Mailgun\Mailgun;
 
 // Mailgun API configuration
-$apiKey = '59f3a13a277c4559d79027d1221778fd-2e68d0fb-4e90473c'; // Replace with your Mailgun API key
-$domain = 'sandbox5661e8d8e13d4ed1b54c730448a40786.mailgun.org'; // Replace with your Mailgun domain
+$apiKey = ''; // Replace with your Mailgun API key
+$domain = ''; // Replace with your Mailgun domain
 
 // Database credentials
 $servername = "localhost"; // Your database server name
