@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Ensures the body takes up full viewport height */
+        body {
+            background-image: url('hacked.png');
+            background-size: cover; /* Ensure the image covers the entire screen */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            margin: 0; /* Remove default margins */
+            height: 100vh; /* Make the body take full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Optional: To make sure content inside the body fits properly on mobile devices */
+        @media only screen and (max-width: 600px) {
+            body {
+                background-size: cover; /* You can keep cover for good scaling */
+                background-position: center; /* Keep the image centered */
+            }
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
